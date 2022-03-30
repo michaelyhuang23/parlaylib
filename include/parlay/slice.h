@@ -63,6 +63,8 @@ struct slice {
   
   using iterator = It;
   using sentinel = S;
+
+  slice() {};
   
   slice(iterator s, sentinel e) : s(s), e(e){};
   
